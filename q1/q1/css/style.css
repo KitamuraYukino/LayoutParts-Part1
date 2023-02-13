@@ -1,2 +1,16 @@
 @charset "UTF-8";
 /* 回答はここから */
+
+.text-box {
+  display: inline-block;
+  width: 90px;
+  background-color: #a4b3e9;
+  padding: 10px 0;
+}
+
+.background {
+  text-align: center;
+  width: 200px;
+  padding: 20px 0;
+  background-color: #fff;
+}
