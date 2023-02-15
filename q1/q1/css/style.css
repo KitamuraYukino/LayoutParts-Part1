@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* 回答はここから */
-
+/* q1-1 */
 .text-box {
   display: inline-block;
   width: 90px;
@@ -28,4 +28,33 @@
   width: 200px;
   background-color: #fff;
   padding: 20px 0;
+}
+
+/* q1-2 */
+.table {
+  height: 150px;
+  margin: auto;
+  display: table;
+}
+
+.table-text {
+  padding: 10px;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #fff;
+}
+/* 高さの指定方法が分からない。
+なぜ背景と同じ高さを指定すると
+背景色が影響される？ */
+
+/* flex */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-text {
+  background-color: #fff;
+  padding: 10px;
 }
