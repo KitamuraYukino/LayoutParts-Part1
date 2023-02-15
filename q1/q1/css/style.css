@@ -6,7 +6,7 @@
   width: 90px;
   background-color: #a4b3e9;
   font-size: 16px;
-  padding: 10px 1.5px;
+  padding: 10px 0;
 }
 
 .background {
@@ -16,8 +16,16 @@
   background-color: #fff;
 }
 
-.margin {
+.text-margin {
   width: 90px;
+  background-color: #a4b3e9;
+  padding: 10px 0;
   margin: 0 auto;
   text-align: center;
+}
+
+.margin {
+  width: 200px;
+  background-color: #fff;
+  padding: 20px 0;
 }
