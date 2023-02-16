@@ -3,10 +3,9 @@
 /* q1-1 */
 .text-box {
   display: inline-block;
-  width: 90px;
   background-color: #a4b3e9;
   font-size: 16px;
-  padding: 10px 0;
+  padding: 10px;
 }
 
 .background {
@@ -19,7 +18,7 @@
 .text-margin {
   width: 90px;
   background-color: #a4b3e9;
-  padding: 10px 0;
+  padding: 10px;
   margin: 0 auto;
   text-align: center;
 }
