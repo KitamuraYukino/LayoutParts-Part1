@@ -46,9 +46,6 @@
   background-color: #fff;
   display: inline-block;
 }
-/* 高さの指定方法が分からない。
-なぜ背景と同じ高さを指定すると
-背景色が影響される？ */
 
 /* flex */
 .flex-parent {
