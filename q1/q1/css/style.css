@@ -30,17 +30,21 @@
 }
 
 /* q1-2 */
-.table {
-  height: 150px;
-  margin: auto;
+
+.parent {
   display: table;
+}
+
+.table {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .table-text {
   padding: 10px;
-  display: table-cell;
-  vertical-align: middle;
   background-color: #fff;
+  display: inline-block;
 }
 /* 高さの指定方法が分からない。
 なぜ背景と同じ高さを指定すると
@@ -61,6 +65,8 @@
 
 /* position */
 .position-parent {
+  background-color: #fff;
+  height: 150px;
   position: relative;
 }
 
