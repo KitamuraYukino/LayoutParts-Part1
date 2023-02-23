@@ -1,1 +1,65 @@
 @charset "UTF-8";
+
+/* Q5-1 */
+/* 横並び１ */
+.container {
+  display: flex;
+}
+
+.item {
+  width: 65px;
+  margin: ;
+  padding: 10px;
+  color: #fff;
+  background-color: #0bd;
+  text-align: center;
+}
+
+/* 横並び（右） */
+.container--row-reverse {
+  display: flex;
+  padding: 10px;
+  flex-direction: row-reverse;
+}
+
+/* 縦並び */
+.container--column {
+  display: flex;
+  flex-direction: column;
+}
+
+.item--column {
+  width: 65px;
+  margin-bottom: 20px;
+  padding: 10px;
+  color: #fff;
+  background-color: #0bd;
+  text-align: center;
+}
+
+/* 縦並び(降順) */
+.container--column-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+/* Q5-2 */
+/* 横並び */
+.container--nowrap {
+  display: flex;
+  padding: 10px;
+}
+
+/* 折り返し */
+.container--wrap {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+/* 折り返しreverse */
+.container--wrap-reverse {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap-reverse;
+}
