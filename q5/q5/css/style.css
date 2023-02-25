@@ -18,7 +18,6 @@
 /* 横並び（右） */
 .container--row-reverse {
   display: flex;
-  padding: 10px;
   flex-direction: row-reverse;
 }
 
@@ -26,15 +25,6 @@
 .container--column {
   display: flex;
   flex-direction: column;
-}
-
-.item--column {
-  width: 65px;
-  margin-bottom: 20px;
-  padding: 10px;
-  color: #fff;
-  background-color: #0bd;
-  text-align: center;
 }
 
 /* 縦並び(降順) */
@@ -47,19 +37,50 @@
 /* 横並び */
 .container--nowrap {
   display: flex;
-  padding: 10px;
 }
 
 /* 折り返し */
 .container--wrap {
   display: flex;
-  padding: 10px;
   flex-wrap: wrap;
 }
 
 /* 折り返しreverse */
 .container--wrap-reverse {
   display: flex;
-  padding: 10px;
   flex-wrap: wrap-reverse;
 }
+
+/* Q5-3 */
+/* 水平方向（左） */
+.container--flex-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* 水平方向（右） */
+.container--flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* 中央揃え */
+.container--center {
+  display: flex;
+  justify-content: center;
+}
+
+/* 両端均等配置 */
+.container--space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 均等配置 */
+.container--space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Q5-4 */
+/* grid */
