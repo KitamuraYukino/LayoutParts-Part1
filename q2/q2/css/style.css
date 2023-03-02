@@ -22,6 +22,6 @@ body,ul,li{
   margin: 0 60px 0 0;
 }
 
-ul li:last-child {
+li.item:last-child{
   margin-right: 0;
 }
